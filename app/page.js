@@ -1,7 +1,9 @@
-import Image from 'next/image'
+import Introduction from "./pages/Introduction"
 
 export default function Home() {
   return (
-    <></>
+    <main>
+    <Introduction/>
+    </main>
   )
 }
