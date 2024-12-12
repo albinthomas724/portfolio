@@ -8,7 +8,7 @@ import { FaJava } from "react-icons/fa";
 
 const Skills = () => {
   return (
-    <div className="flex flex-wrap  gap-4 w-80">
+    <div className="flex flex-row  gap-4 justify-center">
       <Card
         Icon={FaReact}
         title="React"
