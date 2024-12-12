@@ -7,7 +7,7 @@ const Profile = () => {
   return (
     <div>
       <div className=" text-white size-fit text-center mb-5">
-        <h2 className="font-sans font-semibold text-8xl">Albin Thomas</h2>
+        <div><h2 className="font-title font-semibold text-8xl">Albin Thomas</h2></div>
         <p>Software Engineer at Experion Technologies</p>
         <div className="flex justify-center gap-7">
           <a href="https://github.com/albinthomas724" target="_blank" rel="noopener noreferrer"><FaGithub size={40}/></a>

@@ -6,8 +6,10 @@ module.exports = {
     './app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
   theme: {
-    extend: {colors: {
-      coolgrey: '#415a77', // Custom color
+    extend: {fontFamily:{title:["Outfit"]},
+    colors: {
+      coolgrey: '#415a77',
+      dullblack:'#292929', // Custom color
     },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
