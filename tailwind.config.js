@@ -10,7 +10,8 @@ module.exports = {
     colors: {
       coolgrey: '#415a77',
       dullblack:'#292929',
-      coolgreen:'#28afb0', // Custom color
+      coolgreen:'#28afb0',
+      coolblue:'#2274A5', // Custom color
     },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',

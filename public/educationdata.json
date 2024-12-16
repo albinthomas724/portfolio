@@ -1,0 +1,24 @@
+[
+    {
+      "date": "2019-2023",
+      "title": "B-Tech",
+      "description": "Computer Science Engineering, CGPA: 8.28",
+      "icon": "FaUserGraduate",
+      "additionalInfo": "Viswajyothi College of Engineering and Technology Vazhakulam"
+    },
+    {
+      "date": "2017-2019",
+      "title": "Plus Two",
+      "description": "Bio Maths, Percentage : 90%",
+      "icon": "FaSchool",
+      "additionalInfo": "St.Augustine's HSS Karimkunnam"
+    },
+    {
+      "date": "2014-2017",
+      "title": "10 th",
+      "description": "Percentage : 98%",
+      "icon": "FaBook",
+      "additionalInfo": "St.John's HS Kurumannu"
+    }
+  ]
+  
