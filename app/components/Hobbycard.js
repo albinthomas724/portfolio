@@ -32,7 +32,6 @@ const Hobbycard = () => {
                 key={index}
                 title={card.title}
                 subtitle={card.subtitle}
-                href={card.href}
                 iconName={card.icon} // Pass the icon name directly from the API
               />
             ))}
@@ -52,10 +51,9 @@ const DynamicIcon = ({ iconName }) => {
   return <IconComponent className="text-6xl " />; // Render the resolved icon
 };
 
-const Card = ({ title, subtitle, href, iconName }) => {
+const Card = ({ title, subtitle,iconName }) => {
     return (
-      <a
-        href={href}
+      <div
         className="w-full p-4 rounded border-[1px] border-slate-300 relative overflow-hidden group bg-white"
       >
         <div className="absolute inset-0 bg-gradient-to-r from-violet-600 to-indigo-600 translate-y-[100%] group-hover:translate-y-[0%] transition-transform duration-300" />
@@ -72,7 +70,7 @@ const Card = ({ title, subtitle, href, iconName }) => {
         <p className="text-slate-400 group-hover:text-violet-200 relative z-10 duration-300">
           {subtitle}
         </p>
-      </a>
+      </div>
     );
   };
   

@@ -2,19 +2,16 @@
     {
       "title": "Travelling",
       "subtitle":"”Life is either a daring adventure or nothing at all” — Helen Keller",
-      "href": "",
       "icon": "FaMountain"
     },
     {
       "title": "Watching Anime",
       "subtitle": "”When you give up, that's when the game is over” — Haikyuu!!",
-      "href": "",
       "icon": "FaTv"
     },
     {
       "title": "Listening Music",
       "subtitle": "“Where words fail, music speaks.” – Hans Christian Andersen",
-      "href": "/team",
       "icon": "FaMusic"
     }
     
